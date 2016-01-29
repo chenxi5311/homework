@@ -1,0 +1,212 @@
+*{
+    margin:0;
+    padding: 0;
+}
+html,body{
+    width: 100%;
+    height: 100%;
+    overflow: hidden;
+}
+#main{
+    width: 640px;
+    height: 960px;
+    position: absolute;
+    left:50%;
+    top:0;
+    margin-left:-320px;
+    transform-origin: top;
+    -webkit-transform-origin: top;/*改变缩放的基准点*/
+}
+#list li{
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    left:0;
+    top:0;
+    background-size: cover;
+    background-repeat:no-repeat ;
+}
+#list li{
+    background-image: url(images/bg1.jpg);
+}
+.zIndex{
+    z-index: 5;
+}
+.a1{
+    position: absolute;
+    top:30%;
+    width:500px;
+    height: 200px;
+    border: 15px solid yellow;
+    left: 10%;
+    text-align: center;
+}
+.a1 p{
+    height: 200px;
+    line-height: 200px;
+    font-family: 'Microsoft Yahei',Tahoma,Helvetica,Arial,sans-serif;
+    font-size: 100px;
+    color:white;
+}
+/*.a1{
+    position: absolute;
+    bottom: 10%;
+    font-size: 30px;
+    color: #fff;
+    width: 100%;
+    text-align: center;
+
+}
+.a1 p:nth-child(even){
+    transform: translate(500px,0);
+    -webkit-transform: translate(500px,0);
+}
+.a1 p:nth-child(odd){
+    transform: translate(-500px,0);
+    -webkit-transform: translate(-500px,0);
+}
+#a1 p{
+    transform: translate(0,0);
+    -webkit-transform: translate(0,0);
+    transition:1s;
+    -webkit-transition:1s;
+}*/
+.a2 p{
+    width: 90px;
+    height: 90px;
+    position: absolute;
+    left:50%;
+    top:50%;
+    margin-left: -45px;
+    margin-top: -45px;
+}
+.a2 p{
+    /*background: url(images/c1.png) no-repeat;*/
+    height: 120px;
+    width: 120px;
+    border: 3px solid yellow;
+    border-radius: 50%;
+    font-size: 25px;
+    color: white;
+    line-height: 120px;
+    text-align: center;
+}
+#a2 p:nth-child(1){
+    left: 50%;
+    top: 30%;
+}
+#a2 p:nth-child(2){
+    left: 20%;
+    top: 40%;
+}
+#a2 p:nth-child(3){
+    left: 80%;
+    top: 40%;
+}
+#a2 p:nth-child(4){
+    left: 20%;
+    top: 60%;
+}
+#a2 p:nth-child(5){
+    left: 80%;
+    top: 60%;
+}
+#a2 p:nth-child(6){
+    left: 50%;
+    top: 70%;
+}
+#a2 p {
+    transform:rotate(720deg);
+    -webkit-transform:rotate(720deg);
+    transition: 1s;
+    -webkit-transition: 1s;
+}
+#info h2{
+    width: 400px;
+    height: 100px;
+    border: 5px solid yellow;
+    margin: 0 auto;
+    text-align: center;
+    margin-bottom: 20px;
+}
+#info h2 span{
+    display: block;
+    line-height: 100px;
+    color: white;
+    font-size: 50px;
+    font-family: 'Microsoft Yahei',Tahoma,Helvetica,Arial,sans-serif;
+}
+#info #left{
+    float: left;
+    top:20%;
+    width: 40%;
+    height: 300px;
+    border: 5px solid yellow;
+}
+#info #left img{
+    width: 100%;
+    height: 100%;
+}
+#info #right{
+    float: right;
+    top:20%;
+    width: 50%;
+    height: 300px;
+}
+#info #right p{
+    position: absolute;
+    top:30%;
+    font-size: 50px;
+    color: yellow;
+    font-family: 'Microsoft Yahei',Tahoma,Helvetica,Arial,sans-serif;
+}
+#info .d1{
+    position: absolute;
+    bottom: 15%;
+    font-size: 30px;
+    color: white;
+    width: 100%;
+    text-align: center;
+}
+#info img{
+    transform: rotateY(720deg);
+    -webkit-transform: rotateY(720deg);
+    transition: 0.5s;
+    -webkit-transition: 0.5s;
+}
+.a4 p{
+    width: 0;
+    height: 0;
+    font-size: 200px;
+    border-radius: 5px;
+    border: 5px solid yellow;
+    /*word-wrap: break-word;*/
+    overflow: hidden;
+    color: #fff;
+    position: absolute;
+
+}
+.a4 p span{display:block;width:100%;height:100%;font-size:40px;color: white;}
+.a4 p:nth-child(1){
+    left: 10%;
+    top:15%;
+
+}
+.a4 p:nth-child(2){
+    left: 53%;
+    top:20%;
+}
+.a4 p:nth-child(3){
+    left: 46%;
+    top:58%;
+}
+#a4 p{
+    width: 200px;
+    height:300px;
+    transition: 1s;
+    -webkit-transition: 1s;
+}
+
+
+
+
